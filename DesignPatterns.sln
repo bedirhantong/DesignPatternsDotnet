@@ -9,11 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.ObserverPatt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.DecoratorPattern", "DesignPatterns.DecoratorPattern\DesignPatterns.DecoratorPattern.csproj", "{AC3FED44-0985-4D96-BC97-D0696CE17DDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.DecoratorPattern.WithRepositoryPattern", "DesignPatterns.DecoratorPattern.WithRepositoryPattern\DesignPatterns.DecoratorPattern.WithRepositoryPattern.csproj", "{5FBFEB71-4F3B-42F1-964C-E2142522A07E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.DecoratorPattern.WithRepositoryPattern", "DesignPatterns.DecoratorPattern.WithRepositoryPattern\DesignPatterns.DecoratorPattern.WithRepositoryPattern.csproj", "{5FBFEB71-4F3B-42F1-964C-E2142522A07E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.DecoratorPattern.DrawShape", "DesignPatterns.DecoratorPattern.DrawShape\DesignPatterns.DecoratorPattern.DrawShape.csproj", "{CA7885D5-29F5-4570-A93F-9A60F1BAFE27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.DecoratorPattern.DrawShape", "DesignPatterns.DecoratorPattern.DrawShape\DesignPatterns.DecoratorPattern.DrawShape.csproj", "{CA7885D5-29F5-4570-A93F-9A60F1BAFE27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.DecoratorPattern.NetworkLayers", "DesignPatterns.DecoratorPattern.NetworkLayers\DesignPatterns.DecoratorPattern.NetworkLayers.csproj", "{3A3D9C56-FC59-400B-AD2B-0AFD3CED99A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.DecoratorPattern.NetworkLayers", "DesignPatterns.DecoratorPattern.NetworkLayers\DesignPatterns.DecoratorPattern.NetworkLayers.csproj", "{3A3D9C56-FC59-400B-AD2B-0AFD3CED99A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.FactoryPattern.ConsoleGame", "DesignPatterns.FactoryPattern.ConsoleGame\DesignPatterns.FactoryPattern.ConsoleGame.csproj", "{226115E4-E95D-4045-8E22-D4D97F28E3C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.FactoryPattern.FifaWorldCup", "DesignPatterns.FactoryPattern.FifaWorldCup\DesignPatterns.FactoryPattern.FifaWorldCup.csproj", "{D24651B2-C183-42ED-9181-9B5CCCC3E1A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{3A3D9C56-FC59-400B-AD2B-0AFD3CED99A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A3D9C56-FC59-400B-AD2B-0AFD3CED99A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A3D9C56-FC59-400B-AD2B-0AFD3CED99A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{226115E4-E95D-4045-8E22-D4D97F28E3C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{226115E4-E95D-4045-8E22-D4D97F28E3C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{226115E4-E95D-4045-8E22-D4D97F28E3C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{226115E4-E95D-4045-8E22-D4D97F28E3C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D24651B2-C183-42ED-9181-9B5CCCC3E1A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D24651B2-C183-42ED-9181-9B5CCCC3E1A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D24651B2-C183-42ED-9181-9B5CCCC3E1A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D24651B2-C183-42ED-9181-9B5CCCC3E1A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
