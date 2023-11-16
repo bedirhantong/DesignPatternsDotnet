@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.DecoratorPat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.DecoratorPattern.WithRepositoryPattern", "DesignPatterns.DecoratorPattern.WithRepositoryPattern\DesignPatterns.DecoratorPattern.WithRepositoryPattern.csproj", "{5FBFEB71-4F3B-42F1-964C-E2142522A07E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.DecoratorPattern.DrawShape", "DesignPatterns.DecoratorPattern.DrawShape\DesignPatterns.DecoratorPattern.DrawShape.csproj", "{CA7885D5-29F5-4570-A93F-9A60F1BAFE27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.DecoratorPattern.NetworkLayers", "DesignPatterns.DecoratorPattern.NetworkLayers\DesignPatterns.DecoratorPattern.NetworkLayers.csproj", "{3A3D9C56-FC59-400B-AD2B-0AFD3CED99A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{5FBFEB71-4F3B-42F1-964C-E2142522A07E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FBFEB71-4F3B-42F1-964C-E2142522A07E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FBFEB71-4F3B-42F1-964C-E2142522A07E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA7885D5-29F5-4570-A93F-9A60F1BAFE27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA7885D5-29F5-4570-A93F-9A60F1BAFE27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA7885D5-29F5-4570-A93F-9A60F1BAFE27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA7885D5-29F5-4570-A93F-9A60F1BAFE27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A3D9C56-FC59-400B-AD2B-0AFD3CED99A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A3D9C56-FC59-400B-AD2B-0AFD3CED99A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A3D9C56-FC59-400B-AD2B-0AFD3CED99A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A3D9C56-FC59-400B-AD2B-0AFD3CED99A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -104,6 +104,8 @@ class Repository<T> : IRepository<T> where T : class
     }
 }
 
+
+// Decorator
 class DecoratorRepository<T> : IRepository<T> where T : class
 {
     readonly IRepository<T> _repository;
@@ -139,11 +141,10 @@ class DecoratorRepository<T> : IRepository<T> where T : class
     }
 }
 
-
+// Concrete Decorator
+// Select işleminden önce güvenlik kontrolü yapılsın ardından select işlemi gerçekleştirilsin
 class SecurityRepositoryDecorator<T> : DecoratorRepository<T> where T: class
 {
-    // Select işleminden önce güvenlik kontrolü yapılsın ardından select işlemi gerçekleştirilsin
-
     readonly IRepository<T> _repository;
 
     public SecurityRepositoryDecorator(IRepository<T> repository) : base(repository)
@@ -164,10 +165,11 @@ class SecurityRepositoryDecorator<T> : DecoratorRepository<T> where T: class
     }
 }
 
+
+// Concrete Decorator
+// Herhangi bir kayıt eklendiğinde, silindiğinde yahut güncellendiğinde işlemden sonra gerekli loglar tutulsun
 class LoggingRepositoryDecorator<T> : DecoratorRepository<T> where T : class
 {
-    // Herhangi bir kayıt eklendiğinde, silindiğinde yahut güncellendiğinde işlemden sonra gerekli loglar tutulsun
-
     readonly IRepository<T> _repository;
     public LoggingRepositoryDecorator(IRepository<T> repository) : base(repository)
     {
@@ -195,7 +197,7 @@ class LoggingRepositoryDecorator<T> : DecoratorRepository<T> where T : class
 
 }
 
-
+// Concrete Decorator
 // Herhangi bir kayıt silindiğinde veya güncellendiğinde CRM veritabanına API’lar aracılığıyla bağlanılarak aynı değişiklikler oraya da yansıtılsın
 class SendCRMRepositoryDecorator<T> : DecoratorRepository<T> where T : class
 {
@@ -217,7 +219,7 @@ class SendCRMRepositoryDecorator<T> : DecoratorRepository<T> where T : class
     }
 }
 
-
+// Concrete Decorator
 // Herhangi bir kayıt güncellendiğinde kim tarafından hangi tarihte yapıldığına dair yöneticiye mail gönderilsin
 class SendMailRepositoryDecorator<T> : DecoratorRepository<T> where T : class
 {
@@ -236,6 +238,8 @@ class SendMailRepositoryDecorator<T> : DecoratorRepository<T> where T : class
     }
 }
 
+
+// Concrete Decorator
 // Kayıtlarda herhangi bir silme işlemi olduğunda kim tarafından hangi tarihte yapıldığına dair bilgilendirsin
 class NotifyDeletionRepositoryDecorator<T> : DecoratorRepository<T> where T : class
 {
